@@ -18,7 +18,7 @@ const services = [
     },
     {
         id: 2,
-        title: 'Custom Development',
+        title: 'Custom Web Development',
         color: 'secondary',
         desc: 'Portfolio sites, Business sites, Landing Pages',
         techs: [<RiReactjsFill/>, <IoLogoJavascript/>, <SiTailwindcss/>, <SiHtml5/>, <SiCss3/>, <SiFramer/>],
@@ -40,9 +40,9 @@ const ServicesSection = () => {
         <h1 className='text-center text-secondary-800 dark:text-white text-3xl lg:text-5xl font-bold'>Services</h1>
         <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
             {services.map((s)=>(
-                <div key={s.id} className=' bg-secondary-50 dark:bg-[#292938] border dark:border-neutral-600 rounded-2xl flex flex-col justify-between space-y-6 hover:shadow-xl hover:-translate-y-2 duration-500 hover:shadow-secondary-500/5 p-6 '>
+                <div key={s.id} className=' bg-secondary-50 dark:bg-[#292938] border dark:border-neutral-600/60 rounded-2xl flex flex-col justify-between space-y-6 hover:shadow-xl hover:-translate-y-2 duration-500 hover:shadow-secondary-500/5 p-2 sm:p-6 '>
                     <div className='flex items-center  gap-4'>
-                        <div className={`shadow-2xl text-2xl dark:text-white ${s.id == 1 ? 'bg-gradient-to-r from-teal-500 to-teal-600':''} shadow-${s.color}-500/10 bg-gradient-to-r from-${s.color}-500 to-${s.color}-600 rouned-xl p-4 h-16 w-16 flex items-center justify-center rounded-2xl`}>
+                        <div className={` shadow-2xl text-2xl dark:text-white ${s.id == 1 ? 'bg-gradient-to-r from-teal-500 to-teal-600':''} shadow-${s.color}-500/10 bg-gradient-to-r from-${s.color}-500 to-${s.color}-600 rouned-xl p-4 min-h-16 min-w-16 flex items-center justify-center rounded-2xl`}>
                             {s.icon}
                         </div>
                         <span className=' text-2xl font-bold text-gray-800 dark:text-white'>{s.title}</span>

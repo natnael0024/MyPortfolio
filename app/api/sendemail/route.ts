@@ -3,7 +3,7 @@ import nodemailer from "nodemailer"
 
 export const POST = async(req:NextRequest, res:NextResponse)=>{
     if(req.method !== 'POST'){
-        return new NextResponse(JSON.stringify({message:'method not allowe'}),{status:400})
+        return new NextResponse(JSON.stringify({message:'method not allowed'}),{status:400})
     }
     const {email, subject, message} = await req.json()
     const myEmail = process.env.EMAIL
@@ -28,7 +28,7 @@ export const POST = async(req:NextRequest, res:NextResponse)=>{
         await transporter.sendMail(mailOptions)
         return new NextResponse(JSON.stringify({message:'Sent! Thanks for emailing me'}),{status:200})
     }catch(error){
-        // throw new error
+        console.log(error)
         return new NextResponse(JSON.stringify({message:error}),{status:500})
     }
 }

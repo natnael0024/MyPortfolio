@@ -81,7 +81,7 @@ const portfolios = [
 
 const Portfolio = () => {
   return (
-    <div id='portfolio' className=' px-2 lg:px-40 dark:bg-[#1a1d29]  lg:py-32 flex flex-col sm:space-y-16 '>
+    <div id='portfolio' className=' px-2 lg:px-60 dark:bg-[#1a1d29]  lg:py-32 flex flex-col sm:space-y-16 '>
         <h1 className='text-center text-secondary-800 dark:text-white text-3xl lg:text-5xl font-bold'>Portfolio</h1>
         <div className=' flex flex-col gap-10'>
         {portfolios.map((portfolio)=>(
@@ -89,9 +89,9 @@ const Portfolio = () => {
                     <div className=' flex-1'>
                         <Image 
                          src={portfolio.image}
-                         width={1000}
+                         width={800}
                          alt={portfolio.title}
-                         className='rounded-xl shadow-2xl shadow-secondary-400/10'/>
+                         className='rounded-xl shadow-2xl shadow-secondary-400/10 h-full'/>
                     </div>
 
                     <div className=' flex-1 flex flex-col space-y-4'>

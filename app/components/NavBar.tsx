@@ -23,7 +23,7 @@ export default function Navbar() {
     localStorage.setItem('theme', newTheme ? 'dark' : 'light');
   };
 return (
-    <nav className="bg-white dark:bg-[#1C1C27] duration-200 fixed top-0 left-0 right-0 z-50 py-2 shadow-xl shadow-secondary-300/5 dark:shadow-gray-950/10">
+    <nav className="bg-white dark:bg-[#1C1C27] scroll-m-40 duration-200 fixed top-0 left-0 right-0 z-50 py-2 shadow-xl shadow-secondary-300/5 dark:shadow-gray-950/10">
       <div className=" mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -31,7 +31,7 @@ return (
             <div className=' bg-gradient-to-tr from-primary-500 to-primary-600 p-2 px-4 w-12 h-12 flex items-center justify-center rounded-xl font-bold text-white text-xl shadow-lg shadow-primary-500/50 dark:shadow-primary-800'>
             <span className=' '><TbCircleDashedLetterN size={40}/></span>
             </div>
-            <span className=' text-xl font-bold text-secondary-600'>Natnael</span>
+            <span className=' text-2xl font-bold text-secondary-700 dark:text-secondary-500'>Natnael</span>
         </div>
 
           {/* Desktop Menu */}

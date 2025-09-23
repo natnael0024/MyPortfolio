@@ -65,7 +65,7 @@ const Contact = () => {
           value={form.subject}
           onChange={handleChange}
           required
-          className="w-full lg:w-[70%] p-4 outline-none border-2 border-gray-500/20 focus:border-secondary-500/50 focus:shadow-xl focus:shadow-secondary-400/10 duration-200 rounded-xl dark:bg-primary-500/10 dark:text-white"
+          className="w-full lg:w-[50%] p-4 outline-none border-2 border-gray-500/20 focus:border-secondary-500/50 focus:shadow-xl focus:shadow-secondary-400/10 duration-200 rounded-xl dark:bg-primary-500/10 dark:text-white"
         />
         <textarea
           name="message"
@@ -73,7 +73,7 @@ const Contact = () => {
           value={form.message}
           onChange={handleChange}
           required
-          className="w-full lg:w-[90%] p-4 outline-none border-2 border-gray-500/20 focus:border-secondary-500/50 focus:shadow-xl focus:shadow-secondary-400/10 duration-200 rounded-xl dark:bg-primary-500/10 dark:text-white h-32"
+          className="w-full lg:w-[50%] p-4 outline-none border-2 border-gray-500/20 focus:border-secondary-500/50 focus:shadow-xl focus:shadow-secondary-400/10 duration-200 rounded-xl dark:bg-primary-500/10 dark:text-white h-32"
         />
         <button
           type="submit"
