@@ -104,8 +104,8 @@ const Portfolio = () => {
                               </span>
                           ))}
                       </div>
-                      <div className=' pt-5 pb-5'>
-                        <Link href={portfolio.url} target='_blank' className={` ${portfolio.id==3?'hidden':''} bg-gradient-to-r  px-14 hover:scale-105 hover:shadow-2xl hover:shadow-secondary-500/10 duration-200 from-secondary-400 to-secondary-700 p-3 text-white font-semibold rounded-full`} >
+                      <div className=' pt-5 pb-5 flex justify-center sm:justify-start'>
+                        <Link href={portfolio.url} target='_blank' className={` ${portfolio.id==3?'hidden':''} bg-gradient-to-r  px-14 hover:scale-105 hover:shadow-2xl hover:shadow-secondary-500/30 duration-200 from-secondary-400 to-secondary-700 p-3 text-white font-semibold rounded-full`} >
                             Visit
                         </Link>
                       </div>
