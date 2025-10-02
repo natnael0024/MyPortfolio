@@ -2,7 +2,7 @@ import React,{useRef} from 'react'
 import p1 from '@/app/images/p1.png'
 import p2 from '@/app/images/tew.png'
 import p3 from '@/app/images/rhm.png'
-import p4 from '@/app/images/natai3.png'
+import p4 from '@/app/images/factoai.png'
 import p5 from '@/app/images/teamlink.png'
 import p6 from '@/app/images/chillncode.png'
 import p7 from '@/app/images/nataitgbot.png'
@@ -39,16 +39,16 @@ const portfolios = [
     },
     {
       id:4,
-      title:'NatAI chatbot',
-      desc:'Natai is an AI-powered chatbot that aims to be your friendly and knowledgeable companion. Developed using the Google Gemini Model, Natai is designed to engage in natural conversations, answer questions, and assist you with a variety of tasks.',
+      title:'FactoAI chatbot',
+      desc:'FactoAI is an AI-powered chatbot that aims to be your friendly and knowledgeable companion. Developed using the Google Gemini Model, FactoAI is designed to engage in natural conversations, answer questions, and assist you with a variety of tasks.',
       image:p4,
-      url :'https://nataichat.onrender.com/', 
+      url :'https://factoai.vercel.app/', 
       techStack:['Python','FastAPI','ReactJS','Postgresql','Supabase','Gemini Model']
     },
     {
       id:5,
-      title:'NatAI Telegram chatbot',
-      desc:'NataiBot is an AI-powered chatbot designed to bring the capabilities of NatAI to Telegram users. NataiBot allows you to engage in natural conversations, get answers to your questions, and receive help with various tasks within the Telegram app. ',
+      title:'FactoAI Telegram chatbot',
+      desc:'FactoAI is an AI-powered chatbot designed to bring the capabilities of FactoAI to Telegram users. NataiBot allows you to engage in natural conversations, get answers to your questions, and receive help with various tasks within the Telegram app. ',
       image:p7,
       url :'https://t.me/nat_AI_bot', 
       techStack:['Python','Postgresql','Gemini Model']
