@@ -37,7 +37,7 @@ return (
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-2 space-x-8 text-md">
             <NavLink href="/">
-                <span className='text-secondary-700'>Home</span>
+                <span className=''>Home</span>
             </NavLink>
             <NavLink href="#about">About</NavLink>
             <NavLink href="#services">Services</NavLink>
