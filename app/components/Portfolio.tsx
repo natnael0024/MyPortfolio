@@ -10,6 +10,7 @@ import p8 from '@/app/images/tti.png'
 import p9 from '@/app/images/mystore.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import { IoOpenOutline } from "react-icons/io5";
 
 
 const portfolios = [
@@ -32,7 +33,7 @@ const portfolios = [
     {
       id:3,
       title:'EtBolo',
-      desc:'EtBolo is a user-friendly web platform for vehicle test companies and government officials. It streamlines the vehicle authorization process by securely storing and accessing test results. With features such as data management, analytics, workflow automation, and collaboration tools, the dashboard promotes efficiency and accuracy in evaluating vehicle compliance with regulations. (Due to NDA I am not allowed to show demo)',
+      desc:'EtBolo is a user-friendly web platform for vehicle test companies and government officials. It streamlines the vehicle authorization process by securely storing and accessing test results. With features such as data management, analytics, workflow automation, and collaboration tools, the dashboard promotes efficiency and accuracy in evaluating vehicle compliance with regulations.',
       image:p2,
       url:'https://stg.tewostechsolutions.com',
       techStack:['Laravel','JavaScript']
@@ -105,9 +106,14 @@ const Portfolio = () => {
                           ))}
                       </div>
                       <div className=' pt-5 pb-5 flex justify-center sm:justify-start'>
-                        <Link href={portfolio.url} target='_blank' className={` ${portfolio.id==3?'hidden':''} bg-gradient-to-r  px-14 hover:scale-105 hover:shadow-2xl hover:shadow-secondary-500/30 duration-200 from-secondary-400 to-secondary-700 p-3 text-white font-semibold rounded-full`} >
-                            Visit
+                        <Link href={portfolio.url} target='_blank' className={` ${portfolio.id==3?'hidden':''} bg-gradient-to-r flex items-center gap-2  px-14 hover:scale-105 hover:shadow-2xl hover:shadow-secondary-500/30 duration-200 from-secondary-400 to-secondary-700 p-3 text-white font-semibold rounded-full`} >
+                            Visit <IoOpenOutline/>
                         </Link>
+                        {portfolio.id==3?
+                         <div className={` bg-gradient-to-r cursor-not-allowed flex items-center gap-2  px-14 hover:scale-105 hover:shadow-2xl hover:shadow-secondary-500/30 duration-200 from-gray-400 to-gray-700 p-3 text-white font-semibold rounded-full`} >
+                         NDA-Protected <IoOpenOutline/>
+                        </div>
+                        :('')}
                       </div>
                     </div>
 
