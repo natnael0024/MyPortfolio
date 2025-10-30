@@ -4,13 +4,13 @@ import { RiLightbulbFlashLine } from "react-icons/ri";
 import { TbBrandGithub, TbBrandHackerrank, TbBrandLinkedinFilled, TbBrandTelegram } from 'react-icons/tb';
 
 const socialMedias = [
-    {
-        id:1,
-        name:'LinkedIn',
-        color:'primary',
-        icon:<TbBrandLinkedinFilled className=' text-primary-500'/>,
-        link:'https://www.linkedin.com/in/natnael-legesse-6239591a2/'
-    },
+    // {
+    //     id:1,
+    //     name:'LinkedIn',
+    //     color:'primary',
+    //     icon:<TbBrandLinkedinFilled className=' text-primary-500'/>,
+    //     link:'https://www.linkedin.com/in/natnael-legesse-6239591a2/'
+    // },
     {
         id:2,
         name:'Github',
@@ -18,13 +18,13 @@ const socialMedias = [
         icon:<TbBrandGithub className=' dark:text-white'/>,
         link:'https://github.com/natnael0024'
     },
-    {
-        id:3,
-        name:'HackerRank',
-        color:'green',
-        icon:<TbBrandHackerrank className='text-green-500'/>,
-        link:'https://www.hackerrank.com/certificates/3b09704215a1'
-    },
+    // {
+    //     id:3,
+    //     name:'HackerRank',
+    //     color:'green',
+    //     icon:<TbBrandHackerrank className='text-green-500'/>,
+    //     link:'https://www.hackerrank.com/certificates/3b09704215a1'
+    // },
     {
         id:3,
         name:'Telegram',

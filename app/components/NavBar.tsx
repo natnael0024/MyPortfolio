@@ -53,7 +53,7 @@ return (
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </button>
-            <a
+            {/* <a
               href="/nResume8-7-25.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -61,7 +61,7 @@ return (
               <button className=' bg-gradient-to-r from-secondary-400 to-secondary-600 text-white p-2 px-6 rounded-full shadow-xl shadow-secondary-500/45 text-md font-semibold hover:shadow-none hover:scale-105 duration-300'>
                 Download Resume
               </button>
-            </a>
+            </a> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -90,7 +90,7 @@ return (
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
           </button>
-          <a
+          {/* <a
               href="/nResume8-7-25.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -98,7 +98,7 @@ return (
               <button className=' bg-gradient-to-r from-secondary-400 to-secondary-600 text-white p-2 px-6 rounded-full shadow-xl shadow-secondary-500/45 text-md font-semibold hover:shadow-none hover:scale-105 duration-300'>
                 Download Resume
               </button>
-          </a>
+          </a> */}
         </div>
       )}
     </nav>

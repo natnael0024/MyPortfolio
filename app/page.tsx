@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           
           <div className=" flex gap-4">
-            <Link href="https://www.linkedin.com/in/natnael-legesse-6239591a2/" target="_blank"><SiLinkedin className="text-white text-xl hover:rotate-6 hover:shadow-xl hover:text-secondary-300 hover:shadow-secondary-300/20  duration-500"/></Link>
+            {/* <Link href="https://www.linkedin.com/in/natnael-legesse-6239591a2/" target="_blank"><SiLinkedin className="text-white text-xl hover:rotate-6 hover:shadow-xl hover:text-secondary-300 hover:shadow-secondary-300/20  duration-500"/></Link> */}
             <Link href="https://github.com/natnael0024"><SiGithub className="text-white text-xl hover:rotate-6 hover:shadow-xl hover:text-secondary-300 hover:shadow-secondary-300/20  duration-500"/></Link>
             <Link href="https://t.me/nattechnology/"><SiTelegram className="text-white text-xl hover:rotate-6 hover:shadow-xl hover:text-secondary-300 hover:shadow-secondary-300/20  duration-500"/></Link>
           </div>
