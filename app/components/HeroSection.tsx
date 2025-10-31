@@ -15,12 +15,12 @@ const HeroSection = () => {
             <div className=' z-20  flex flex-col space-y-6 justify-center items-center'>
                 <div className=' relative'>
                     <Image src={pic}
-                     className=' duration-[10000ms] z-20 relative filter blur-xl rounded-full '
+                     className=' h-full dark:opacity-50 opacity-0 w-[60rem] z-20 relative filter blur-xl '
                      alt='image'
                      width={370}
                      height={370}/>
                       <Image src={pic}
-                     className=' absolute z-20 top-0 filter rounded-full '
+                     className=' w-80 h-80 absolute object-cover z-20 top-24 -translate-x-1/2 left-1/2 filter rounded-full '
                      alt='image'
                      width={360}
                      height={360}/>

@@ -43,7 +43,7 @@ const ServicesSection = () => {
                 <div key={s.id} className=' bg-secondary-50 dark:bg-[#292938] border dark:border-neutral-600/60 rounded-2xl flex flex-col justify-between space-y-6 hover:shadow-xl hover:-translate-y-2 duration-500 hover:shadow-secondary-500/5 p-2 sm:p-6 '>
                     <div className='flex items-center  gap-4'>
                         <div className={` shadow-2xl dark:text-white ${s.id == 1 ? 'bg-gradient-to-r from-teal-500 to-teal-600':''} shadow-${s.color}-500/10 bg-gradient-to-r from-${s.color}-500 to-${s.color}-600 rouned-xl p-4 min-h-12 max-h-12 min-w-12 max-w-12 sm:min-h-16 sm:min-w-16 flex items-center justify-center rounded-2xl`}>
-                            {s.icon}
+                            <span className=' text-4xl'>{s.icon}</span>
                         </div>
                         <span className=' text-xl lg:text-2xl font-bold text-gray-800 dark:text-white'>{s.title}</span>
                     </div>
