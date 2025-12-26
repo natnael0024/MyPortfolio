@@ -6,6 +6,7 @@ import p4 from '@/app/images/factoai.png'
 import p5 from '@/app/images/teamlink.png'
 import p6 from '@/app/images/chillncode.png'
 import p7 from '@/app/images/nataitgbot.png'
+import p10 from '@/app/images/scopeo.png'
 import p8 from '@/app/images/tti.png'
 import p9 from '@/app/images/mystore.png'
 import Image from 'next/image'
@@ -54,6 +55,14 @@ const portfolios = [
       url :'https://t.me/nat_AI_bot', 
       techStack:['Python','Postgresql','Gemini Model']
     },
+    {
+      id:6,
+      title:'Scopeo',
+      desc:'Scopeo is an AI-powered tool that analyzes client requests to assess scope, risks, timeline, and cost. It highlights uncertainties, asks critical questions, and helps teams make informed decisions before committing to delivery. ',
+      image:p10,
+      url :'https://scopeoo.vercel.app', 
+      techStack:['NextJs','Gemini Model']
+    },
     // {
     //   id:5,
     //   title:'Text To Image Generator',
@@ -63,7 +72,7 @@ const portfolios = [
     //   techStack:['Python','FastAPI','HuggingFace Model','ReactJs']
     // },
     {
-      id:6,
+      id:7,
       title:'chill&code',
       desc:'chill&code is a tech-focused blogging project designed to explore and share the latest trends, innovations, and insights in the world of technology. This project aims to provide valuable content for tech enthusiasts, professionals, and anyone interested in staying updated on emerging technologies, product reviews, how-to guides, and industry news. ',
       image:p6,
