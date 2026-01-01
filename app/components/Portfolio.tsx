@@ -71,14 +71,14 @@ const portfolios = [
     //   url :'https://text-to-image-nat-ai.onrender.com', 
     //   techStack:['Python','FastAPI','HuggingFace Model','ReactJs']
     // },
-    {
-      id:7,
-      title:'chill&code',
-      desc:'chill&code is a tech-focused blogging project designed to explore and share the latest trends, innovations, and insights in the world of technology. This project aims to provide valuable content for tech enthusiasts, professionals, and anyone interested in staying updated on emerging technologies, product reviews, how-to guides, and industry news. ',
-      image:p6,
-      url :'https://chillandcode.onrender.com/', 
-      techStack:['NodeJs','ReactJS','Postgresql','Supabase']
-    },
+    // {
+    //   id:7,
+    //   title:'chill&code',
+    //   desc:'chill&code is a tech-focused blogging project designed to explore and share the latest trends, innovations, and insights in the world of technology. This project aims to provide valuable content for tech enthusiasts, professionals, and anyone interested in staying updated on emerging technologies, product reviews, how-to guides, and industry news. ',
+    //   image:p6,
+    //   url :'https://chillandcode.onrender.com/', 
+    //   techStack:['NodeJs','ReactJS','Postgresql','Supabase']
+    // },
     // {
     //   id:7,
     //   title:'Traveler',
