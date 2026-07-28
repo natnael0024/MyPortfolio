@@ -9,6 +9,7 @@ import p7 from '@/app/images/nataitgbot.png'
 import p10 from '@/app/images/scopeo.png'
 import p8 from '@/app/images/tti.png'
 import p9 from '@/app/images/mystore.png'
+import p11 from '@/app/images/quark.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IoOpenOutline } from "react-icons/io5";
@@ -57,6 +58,14 @@ const portfolios = [
     },
     {
       id:6,
+      title:'Quark',
+      desc:'Quark is an AI-powered learning platform that helps aspiring developers master programming through structured learning paths, interactive coding challenges, quizzes, and an intelligent AI tutor. ',
+      image:p11,
+      url :'https://quark-platform.onrender.com/', 
+      techStack:['Django','NextJs', 'Supabase','Gemini Model']
+    },
+    {
+      id:7,
       title:'Scopeo',
       desc:'Scopeo is an AI-powered tool that analyzes client requests to assess scope, risks, timeline, and cost. It highlights uncertainties, asks critical questions, and helps teams make informed decisions before committing to delivery. ',
       image:p10,
